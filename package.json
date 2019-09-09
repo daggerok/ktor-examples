@@ -1,0 +1,27 @@
+{
+  "name": "ktor-examples",
+  "version": "1.0.0",
+  "description": "Quick and fast rapid development with ktor",
+  "main": "index.js",
+  "scripts": {
+    "start": "vuepress dev --port 5000 .",
+    "build": "vuepress build --no-cache .",
+    "gh-pages": "cross-env BASE_HREF='/ktor-examples/' npm run build",
+    "test": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daggerok/ktor-examples.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daggerok/ktor-examples/issues"
+  },
+  "homepage": "https://github.com/daggerok/ktor-examples#readme",
+  "devDependencies": {
+    "cross-env": "5.2.1",
+    "vuepress": "1.0.4"
+  }
+}
