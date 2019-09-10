@@ -9,6 +9,10 @@ Quick and fast rapid development with ktor [![Build Status](https://travis-ci.or
 * [VuePress docs](#vuepress-docs)
 -->
 
+## HTML + CSS
+
+<<< @/ktor-html-css-example/src/Application.kt{highlightLines}
+
 ## VuePress docs
 
 ```shell script
