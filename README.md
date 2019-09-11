@@ -28,6 +28,7 @@ Documentation is deployed on [GitHub Pages](https://daggerok.github.io/ktor-exam
 * [Ktor project](https://ktor.io)
 * [Ktor Getting Started](https://ktor.io/quickstart/index.html)
 * [Ktor project generator: start.ktor.io](https://start.ktor.io)
+* [YouTube: KotlinConf 2018 - Building Server Backends with Ktor by Ryan Harter](youtube.com/watch?v=V4PS3IjIzlw)
 * [YouTube: Server-Side Development with Ktor by Hadi Hariri - Bengaluru, June 22, 2019](https://www.youtube.com/watch?v=Y4kyTpi_qO4)
 * [VuePress](https://v1.vuepress.vuejs.org/guide/markdown.html#import-code-snippets)
 * [VuePress partial includes: markdown-it-vuepress-code-snippet-enhanced](https://www.npmjs.com/package/markdown-it-vuepress-code-snippet-enhanced)
