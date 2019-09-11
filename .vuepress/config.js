@@ -8,4 +8,11 @@ module.exports = {
         repo: 'daggerok/ktor-examples',
         lastUpdated: 'Last Updated',
     },
+    markdown: {
+        lineNumbers: true,
+        extendMarkdown: md => {
+            // awesome md enhancer! partials includes!
+            md.use(require('markdown-it-vuepress-code-snippet-enhanced'))
+        }
+    },
 };

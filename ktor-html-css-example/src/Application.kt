@@ -14,16 +14,18 @@ import io.ktor.server.engine.*
 
 fun main(args: Array<String>): Unit = io.ktor.server.netty.EngineMain.main(args)
 
+// tag::snippet-1
 @Suppress("unused") // Referenced in application.conf
 @kotlin.jvm.JvmOverloads
 fun Application.module(testing: Boolean = false) {
+// tag::snippet-1
     install(ShutDownUrl.ApplicationCallFeature) {
         // The URL that will be intercepted (you can also use the application.conf's ktor.deployment.shutdown.url key)
         shutDownUrl = "/ktor/application/shutdown"
         // A function that will be executed to get the exit code of the process
         exitCodeSupplier = { 0 } // ApplicationCall.() -> Int
     }
-
+    // tag::snippet-1
     routing {
         get("/") {
             call.respondText("HELLO WORLD!", contentType = ContentType.Text.Plain)
@@ -65,6 +67,7 @@ fun Application.module(testing: Boolean = false) {
         }
     }
 }
+// tag::snippet-1
 
 fun FlowOrMetaDataContent.styleCss(builder: CSSBuilder.() -> Unit) {
     style(type = ContentType.Text.CSS.toString()) {

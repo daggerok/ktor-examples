@@ -3,17 +3,13 @@ Quick and fast rapid development with ktor [![Build Status](https://travis-ci.or
 
 [[toc]]
 
-<!--
-## Table of Content
-
-* [VuePress docs](#vuepress-docs)
--->
-
 ## HTML + CSS
 
-```kotlin
+<!--
 <<< @/ktor-html-css-example/src/Application.kt{highlightLines}
-```
+-->
+
+@[code lang=kotlin transcludeWith=tag::snippet-1](@/ktor-html-css-example/src/Application.kt)
 
 ## VuePress docs
 
@@ -34,4 +30,4 @@ Documentation is deployed on [GitHub Pages](https://daggerok.github.io/ktor-exam
 * [Ktor project generator: start.ktor.io](https://start.ktor.io)
 * [YouTube: Server-Side Development with Ktor by Hadi Hariri - Bengaluru, June 22, 2019](https://www.youtube.com/watch?v=Y4kyTpi_qO4)
 * [VuePress](https://v1.vuepress.vuejs.org/guide/markdown.html#import-code-snippets)
-
+* [VuePress partial includes: markdown-it-vuepress-code-snippet-enhanced](https://www.npmjs.com/package/markdown-it-vuepress-code-snippet-enhanced)
